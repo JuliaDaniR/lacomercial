@@ -9,7 +9,7 @@ export const articulos = [
       pantalla: "4.7 Retina",
     },
     precio: 74999,
-    imagen: "../imagenes/productos/iPhone-SE-Black.jpg",
+    imagen: "./imagenes/productos/iPhone-SE-Black.jpg",
   },
   {
     codigo: 102,
@@ -21,7 +21,7 @@ export const articulos = [
       pantalla: "6.7 FHD+",
     },
     precio: 50000,
-    imagen: "../imagenes/productos/Motorola-Moto-G100.jpg",},
+    imagen: "./imagenes/productos/Motorola-Moto-G100.jpg",},
   {
     codigo: 103,
     nombre: "iPhone 11 Pro",
@@ -32,7 +32,7 @@ export const articulos = [
       pantalla: "5.8 Super Retina XDR",
     },
     precio: 232901,
-    imagen: "../imagenes/productos/Iphone-11-Pro.jpg",
+    imagen: "./imagenes/productos/Iphone-11-Pro.jpg",
   },
   {
     codigo: 201,
@@ -44,6 +44,6 @@ export const articulos = [
       pantalla: "6.7 FHD+",
     },
     precio: 66999,
-    imagen: "../imagenes/productos/Samsung-Galaxy-A72.jpg",
+    imagen: "./imagenes/productos/Samsung-Galaxy-A72.jpg",
   },
   ]

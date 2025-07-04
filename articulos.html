@@ -77,6 +77,27 @@
     <main class="container">
       <div class="row" id="listado"></div>
     </main>
+    <section>
+      <h2>Nota de pedidos</h2>
+      <table class="table table-striped">
+        <thead class="bg-promary text-white">
+          <tr>
+            <th>Código</th>
+            <th>Detalle</th>
+            <th>Cantidad</th>
+            <th>Precio U.</th>
+            <th>Total</th>
+          </tr>
+        </thead>
+        <tbody id="detalle"></tbody>
+        <tfoot class="bg-success text-white">
+          <tr>
+            <td colspan="4" style="text-align: right">Total del Pedido</td>
+            <td id="totalpedido"></td>
+          </tr>
+        </tfoot>
+      </table>
+    </section>
     <footer class="bg-primary">
       <p>Todos los derechos reservados</p>
     </footer>
@@ -85,5 +106,7 @@
       integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
       crossorigin="anonymous"
     ></script>
+    <script type="module" src="./controladores/lista-articulos.js"></script>
+    <script type="module" src="./controladores/nota-pedidos.js"></script>
   </body>
 </html>
